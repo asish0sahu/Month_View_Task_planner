@@ -7,7 +7,7 @@ import { CalendarGrid } from "./CalenderGrid";
 import { FiltersPanel } from "./FilterPanel";
 import { TaskModal } from "./TaskModal";
 import type { Task, TaskCategory } from "../../types/task";
-import { parseDateString, clampDateRange, formatISODate } from "../../utils/date";
+import { parseDateString } from "../../utils/date";
 
 export const MonthTaskPlanner: React.FC = () => {
   const {
